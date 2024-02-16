@@ -11,7 +11,7 @@ app.use("/api/products", productRoute);
 
 mongoose
   .connect(
-    "mongodb+srv://ghanishthay05:96GWIUPC5TJSA4hA@mycluster.lot9yae.mongodb.net/Node-API?retryWrites=true&w=majority"
+    //"mongodb URI here"
   )
   .then(() => {
     console.log("Connected to database");
